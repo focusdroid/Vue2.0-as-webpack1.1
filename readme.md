@@ -1,7 +1,10 @@
 ##手动配置vue开发环境&webpack
     - 0. node环境和npm不说了，不会就不用开发了
+
     - 1. 新建dist文件夹，这个是以后存放压缩或者上线文件的地方
+
     - 2. 新建src文件夹，存方所有的组件，资源文件
+
     - 3. 在src下面新建js，css，images文件夹，在js文件夹新建main.js文件（入口文件）,在根目录中新建webpack.config.js
 
     - 4. 开始安装环境问题，
@@ -29,4 +32,4 @@
             7.1.0 cnpm install vue --save
             7.1.1 cnpm install vue-loader vue-template-complier -D
         7.2 在webpack.config.js中添加可以解析.vue文件的loader环境
-        7.3 在
+        7.3 按照App.vue里边写的这样就行，在main.js中引入App.vue使用即可
